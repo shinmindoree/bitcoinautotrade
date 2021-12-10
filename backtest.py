@@ -37,5 +37,3 @@ df['dd'] = (df['hpr'].cummax() - df['hpr']) / df['hpr'].cummax() * 100
 print("MDD(%): ", df['dd'].max()) 
 print("HOR(%): ", df['hpr'])
 
-
-df.to_excel("dd.xlsx")
