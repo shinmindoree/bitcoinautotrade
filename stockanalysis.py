@@ -5,7 +5,7 @@ import pandas as pd
 from pandas import json_normalize 
 
 
-headers = {'x-api-key':"d5I7gNKqdR1kaqxNy4XXl1dvsMBjLIHHaJVp7Rji"}
+headers = {''}
 
 # ### 야후 파이낸스 유료 API 불러오기 함수 ###
 def get_quote(symbol, modules):
